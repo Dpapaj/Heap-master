@@ -1,0 +1,152 @@
+----------
+
+0: Heap_Init,
+1: Heap_Insert,
+2: Heap_Print,
+3: Heap_DeleteMin
+4: Heap_FindMin
+M: Menu
+E: END
+0
+Your choice: 0 - Heap_Init
+
+Initializing heap!
+myMalloc: allocating 1120 bytes, memory allocated 1120 bytes
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+1
+Your choice: 1 - Heap_Insert
+
+Please, enter a name: Enter age, weight and height (separated by Enter):
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+4
+Your choice: 4 - Heap_FindMin
+
+The smallest item is: Name=John, age=19.0, weight=59.0, height=185.0
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+2
+Your choice: 2 - Heap_Print
+
+Index 1 	Name=John, age=19.0, weight=59.0, height=185.0
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+1
+Your choice: 1 - Heap_Insert
+
+Please, enter a name: Enter age, weight and height (separated by Enter):
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+2
+Your choice: 2 - Heap_Print
+
+Index 1 	Name=John, age=19.0, weight=59.0, height=185.0
+Index 2 	Name=Peter, age=34.0, weight=76.0, height=178.0
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+1
+Your choice: 1 - Heap_Insert
+
+Please, enter a name: Enter age, weight and height (separated by Enter):
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+2
+Your choice: 2 - Heap_Print
+
+Index 1 	Name=Anna, age=19.0, weight=45.0, height=167.0
+Index 2 	Name=Peter, age=34.0, weight=76.0, height=178.0
+Index 3 	Name=John, age=19.0, weight=59.0, height=185.0
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+1
+Your choice: 1 - Heap_Insert
+
+Please, enter a name: Enter age, weight and height (separated by Enter):
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+2
+Your choice: 2 - Heap_Print
+
+Index 1 	Name=Anna, age=19.0, weight=45.0, height=167.0
+Index 2 	Name=Eva, age=20.0, weight=55.0, height=168.0
+Index 3 	Name=John, age=19.0, weight=59.0, height=185.0
+Index 4 	Name=Peter, age=34.0, weight=76.0, height=178.0
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+1
+Your choice: 1 - Heap_Insert
+
+Please, enter a name: Enter age, weight and height (separated by Enter):
+myRealloc: allocating 1120 bytes, memory allocated 2240 bytes
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+4
+Your choice: 4 - Heap_FindMin
+
+The smallest item is: Name=Anna, age=19.0, weight=45.0, height=167.0
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+2
+Your choice: 2 - Heap_Print
+
+Index 1 	Name=Anna, age=19.0, weight=45.0, height=167.0
+Index 2 	Name=Eva, age=20.0, weight=55.0, height=168.0
+Index 3 	Name=John, age=19.0, weight=59.0, height=185.0
+Index 4 	Name=Peter, age=34.0, weight=76.0, height=178.0
+Index 5 	Name=Radim, age=37.0, weight=87.0, height=182.0
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+3
+Your choice: 3 - Heap_DeleteMin
+
+Deleted item: Name=Anna, age=19.0, weight=45.0, height=167.0
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+3
+Your choice: 3 - Heap_DeleteMin
+
+Deleted item: Name=Eva, age=20.0, weight=55.0, height=168.0
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+3
+Your choice: 3 - Heap_DeleteMin
+
+Deleted item: Name=John, age=19.0, weight=59.0, height=185.0
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+3
+Your choice: 3 - Heap_DeleteMin
+
+Deleted item: Name=Peter, age=34.0, weight=76.0, height=178.0
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+2
+Your choice: 2 - Heap_Print
+
+Index 1 	Name=Radim, age=37.0, weight=87.0, height=182.0
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+E
+
+Type char 0-A, E=END, M=MENU:
+************************************************************
+myFree: releasing 2240 bytes, memory allocated 0 bytes

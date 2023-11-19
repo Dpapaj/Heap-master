@@ -1,0 +1,7 @@
+<map id="src/include/data.h" name="src/include/data.h">
+<area shape="rect" id="node1" title="Declaration of the data module." alt="" coords="47,5,172,32"/>
+<area shape="rect" id="node2" href="$data_8c.html" title="Implementation of the data module." alt="" coords="5,80,85,107"/>
+<area shape="rect" id="node3" href="$heap_8h.html" title="Header file of heap module." alt="" coords="109,80,237,107"/>
+<area shape="rect" id="node4" href="$heap_8c.html" title="Implementation of the heap module in version min&#45;heap." alt="" coords="77,155,160,181"/>
+<area shape="rect" id="node5" href="$main_8c.html" title="Main file for heap." alt="" coords="185,155,271,181"/>
+</map>
